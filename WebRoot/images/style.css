@@ -1,0 +1,488 @@
+@charset "utf-8";
+/**/
+body {
+	text-align:center;
+}
+
+a:hover {
+	color: orange;
+}
+#container {
+	margin: 0px;
+	padding: 0px;
+	background-color: #e5e5e5;
+	width: 1200;
+}
+
+#header {
+	margin: 0px;
+	margin-bottom: 10px;
+	padding: 0px;
+	background-color:#26508a;
+	width: 100%;
+	height: 78px;
+	background: #26508a;
+	text-align: left;
+}
+
+#header h1 {
+	color: #FFF;
+	font-weight:bold;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+#logo {
+	float:left;
+	width: 64px;
+	height: 64px;
+	margin-left: 20px;
+	margin-top: 6px;
+	margin-right: 10px;
+}
+
+/*                                    中间边框                                 */
+#middleContent {
+	/*margin-left: 17%;
+	margin-right: 23%;
+	*/
+	float: left;
+	margin: 0px;
+	width: 60%;
+	background-color:#FFFFFF;
+	/*border: 1px solid #000;*/
+	padding: 10px;
+}
+
+#pathBox {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#pathBox a {
+	font-size: 16px;
+	color: blue;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+#pathBox a:hover {
+	color:orange;
+}
+
+#pathBox div {
+	padding-top: 10px;
+	padding-left: 5px;
+	text-align:left;
+	background:#ecf2fe;
+	width: 100%;
+	border: 1px solid #cccccc;
+	border-top: none;
+	height: 50px;
+}
+
+.operateBtnBox {
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+.operateBtn {
+	float: left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: 5px;
+	text-align:center;
+	background: #FFFFFF;
+	border: 1px solid #cccccc;
+}
+
+.operateBtn a {
+	text-decoration: none;
+	font-size: 14px;
+	color: black;
+}
+
+.operateBtn a:hover {
+	color: orange;
+}
+
+#fileListBox {
+	clear:both;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#fileListBox table {
+	border: 0px;
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	font-size: 14px;
+}
+
+#fileListBox table td{
+	border: 1px solid #CCCCCC;
+	border-right: none;
+	border-bottom: none;
+	outline: thin;
+}
+
+#fileListBox table td a{
+	text-decoration: none;
+	color: blue;
+}
+
+
+#fileListBox table td a:hover{
+	color: orange;
+}
+
+#fileListBox table td a:visited{
+	color: blue;
+}
+
+#fileListBox table td a img{
+	border: 0px;
+	width: 16px;
+	height: 16px;
+	margin-right: 2px;
+}
+
+#fileListBox table .lastTd {
+	border-right: 1px solid #CCCCCC;
+}
+
+
+#pageIndexBox {
+	clear: both;
+	width: 100%;
+	height: 20px;
+	border: 1px solid #CCCCCC;
+	background-color: #ecf2fe;
+	margin-top: 20px;
+	font-size: 14px;
+	text-align: center;
+}
+
+#pageIndexBox  a {
+	text-decoration: none;
+	font-weight: bold;
+	color: blue;
+	margin-right: 5px;
+}
+
+#pageIndexBox  a:hover {
+	color:orange;
+}
+
+
+/*                                    左边框                                 */
+#leftContent {
+	float:left;
+	padding: 0px;
+	width: 15%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.folderTitle {
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+.folderTitle div {
+	width: 100%;
+	display:block; 
+	background:#ecf2fe; 
+	border:1px solid #cccccc;
+	border-top: none;
+	border-width: 1px;
+	font-size: 14px;
+	text-align: left;
+	height: 20px;
+	margin: 0px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.folderContent {
+	width: 100%;
+	margin: 0px;
+	padding: 5px;
+	border: 1px solid #cccccc;
+	border-top: none;
+	background-color: #FFFFFF;
+	text-align: left;
+}
+
+.folderContent ul {
+	font-size: 14px;
+	list-style: none;
+	margin-left: 10px;
+}
+
+.folderContent ul li{
+	padding-bottom: 2px;
+	/*background: transparent url(mi.gif) no-repeat;*/
+}
+
+.folderContent ul li a{
+	text-align: left;
+	/*margin-left: 16px;*/
+	/*padding-left: 20px;*/
+	/*padding-top: 2px;*/
+	padding: 0px;
+	padding-bottom: 2px;
+	/*background: transparent url(folder1.gif) no-repeat top left;*/
+	border: none;
+}
+
+.folderContent ul li a:hover{
+	color: gray;
+	border: 1px solid #09F;
+	/*background: #FFF url(folder1.gif) no-repeat top left;*/
+}
+/*
+.folderContent ul li img {
+	border: 1px;
+	float:left;
+	margin: 0px;
+	margin-right: 2px;
+}
+*/
+.folderContent ul li a img{
+	border: 0px;
+	margin: 0px;
+	width: 16px;
+	height: 16px;
+	margin-right: 2px;
+}
+
+.folderContent input {
+	margin-left: 0px;
+	margin-right: 5px;
+	width: 120px;
+}
+
+.folderContent a {
+	width:100%;
+	text-align: right;
+	color: gray;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.folderContent a:hover {
+	color: orange;
+}
+	
+.folderContent p {
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: gray;
+}
+
+.folderContent span {
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+}
+
+/*                                    右边框                                 */
+#rightContent {
+	float:left;
+	padding: 0px;
+	width: 20%;
+	margin-left: 1%;
+}
+
+#newOperate {
+	margin-top: 10px;
+	margin-left: 0px;
+	margin-bottom: 30px;
+	padding: 0px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align:left;
+}
+
+#newOperate div {
+	width: 130px;
+	height: 20px;
+	padding-top: 2px;
+	padding-left: 20px;
+	margin-bottom: 5px;	
+	background: #FFFFFF url(greenPlus.gif) no-repeat;
+}
+	
+#newOperate a {
+	color: #000000;
+	text-decoration: none;
+	margin: 0px;
+}
+#newOperate a:hover {
+	color: orange;
+}
+
+#searchBox {
+	margin-bottom: 15px;
+}
+
+#folderMsgBox {
+	margin-bottom: 15px;
+}
+
+#userMsgBox {
+	margin-bottom: 15px;
+}
+
+/*                     页尾                 */
+#footer {
+	clear:both;
+	margin: 10px 0 0 0;
+	padding: 0px;
+	padding-bottom: 10px;
+	width: 100%;
+	font-size: 14px;
+}
+
+#footer  hr {
+	width: 80%;
+	size: 1px;
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+#footer  p {
+	font-size: 14px;
+	margin: 0px;
+}
+
+/* 圆角边框 */
+.xtop, .xbottom {
+	display:block; 
+	background:transparent; 
+	font-size:1px;
+}
+
+.xb1, .xb2, .xb3, .xb4 {
+	display:block; 
+	overflow:hidden;
+}
+
+.xb1, .xb2, .xb3 {
+	height:1px;
+}
+
+.xb2, .xb3, .xb4 {
+	background:#ecf2fe; 
+	border-left:1px solid #cccccc; 
+	border-right:1px solid #cccccc;
+}
+
+.xb1 {
+	margin:0 5px;
+	background:#cccccc;
+}
+
+.xb2 {
+	margin:0 3px; 
+	border-width:0 2px;
+}
+
+.xb3 {
+	margin:0 2px;
+}
+
+.xb4 {
+	height:2px; 
+	margin:0 1px;
+}
+
+
+/*
+
+*/
+
+/*
+#newFolderBox {
+	margin: 0px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	border: 1px solid black;
+	background-color: #CCC;
+	z-index: 100;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+	vertical-align: middle;
+}
+*/
+#newFolderBox {
+	position: absolute;
+	left: 30%;
+	top: 30%;
+	width: 400px;
+	display: none;
+	z-index: 120;
+}
+
+#moveFileBox {
+	position: absolute;
+	left: 30%;
+	top: 30%;
+	width: 500px;
+	display: none;
+	z-index: 120;
+}
+
+#moveFolderList {
+	width: 300px; 
+	height:200px; 
+	border: 1px solid #CCC; 
+	margin-left: 20%; 
+	overflow:auto;
+}
+
+
+#newFileBox {
+	position: absolute;
+	left: 30%;
+	top: 30%;
+	width: 400px;
+	display: none;
+	z-index: 120;
+}
+
+#hiddenLevel {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	border: 1px solid black;
+	background-color: #CCC;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+	display: none;
+	z-index: 100;
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.bysj.docmanage.domain">
+
+	<class name="Files" table="t_docmanage_file">
+		<id name="fileId">
+			<generator class="native" />
+		</id>
+		<property name="fileName" />
+		<property name="remark" />
+		<property name="filePath" />
+		<property name="submitdate" />
+		<property name="filelength"/>
+		
+		<property name="types" />
+		<!-- author属性，本类与User的多对一-->
+		<many-to-one name="author" class="User" column="authorId"></many-to-one>
+		<!-- author属性，本类与Folder的多对一-->
+		<many-to-one name="folder" class="Folder" column="folderId"></many-to-one>
+		
+	</class>
+
+</hibernate-mapping>

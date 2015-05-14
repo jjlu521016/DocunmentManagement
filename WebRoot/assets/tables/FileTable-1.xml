@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <fileNum>17</fileNum>  
+  <file id="1" folderId="1" size="100"> 
+    <name>animal</name>  
+    <path>./assets/files/animal.jpg</path>  
+    <pubTime>2009/9/9</pubTime> 
+  </file>  
+  <file id="2" folderId="1" size="100"> 
+    <name>animal</name>  
+    <path>./files/animal.jpg</path>  
+    <pubTime>2009/9/9</pubTime> 
+  </file>  
+  <file id="9" folderId="2" size="100"> 
+    <name>AAA</name>  
+    <path>./abc/def/AAA.jpg</path>  
+    <pubTime>2009/03/05</pubTime> 
+  </file>  
+  <file id="10" folderId="2" size="100"> 
+    <name>BBB</name>  
+    <path>./abc/def/AAA.jpg</path>  
+    <pubTime>2009/03/05</pubTime> 
+  </file>  
+  <file id="11" folderId="1" size="100"> 
+    <name>CCC</name>  
+    <path>./abc/def/AAA.jpg</path>  
+    <pubTime>2009/03/05</pubTime> 
+  </file>  
+  <file id="15" folderId="7" size="100"> 
+    <name>AAA</name>  
+    <path>./abc/def/AAA.jpg</path>  
+    <pubTime>2009/03/05</pubTime> 
+  </file>  
+  <file id="16" folderId="7" size="100"> 
+    <name>BBB</name>  
+    <path>./abc/def/AAA.jpg</path>  
+    <pubTime>2009/03/05</pubTime> 
+  </file>  
+  <file id="17" folderId="2" size="100"> 
+    <name>CCC</name>  
+    <path>./abc/def/AAA.jpg</path>  
+    <pubTime>2009/03/05</pubTime> 
+  </file> 
+</root>

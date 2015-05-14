@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <sharedNum>10</sharedNum>  
+  <shared id="1" userId="1" folderId="2"> 
+    <owner>chao</owner>  
+    <name>photo</name> 
+  </shared>  
+  <shared id="10" userId="1" folderId="12">
+    <owner>chaoge</owner>
+    <name>music</name>
+  </shared>
+</root>

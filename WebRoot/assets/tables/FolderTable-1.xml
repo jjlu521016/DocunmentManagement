@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <folderNum>12</folderNum>  
+  <folder id="1" name="MyDocument" subFolderNum="7" fileNum="8" capacity="800" shared="false" createTime="2009/10/11"> 
+    <folder id="6" name="video" subFolderNum="1" fileNum="3" capacity="300" shared="false" createTime="2010/05/27"> 
+      <folder id="2" name="photo" subFolderNum="0" fileNum="3" capacity="300" shared="true" createTime="2009/10/15"/> 
+    </folder>  
+    <folder id="11" name="newFolder" subFolderNum="0" fileNum="0" capacity="0" shared="false" createTime="2010/05/27"/>  
+    <folder id="12" name="newFolder2" subFolderNum="3" fileNum="2" capacity="200" shared="true" createTime="2010/05/27"> 
+      <folder id="9" name="video2" subFolderNum="2" fileNum="2" capacity="200" shared="false" createTime="2010/05/27"> 
+        <folder id="3" name="music" subFolderNum="0" fileNum="0" capacity="0" shared="false" createTime="2009/10/25"/>  
+        <folder id="7" name="video" subFolderNum="0" fileNum="2" capacity="200" shared="false" createTime="2010/05/27"/> 
+      </folder> 
+    </folder> 
+  </folder> 
+</root>

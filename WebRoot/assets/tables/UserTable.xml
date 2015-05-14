@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <userNum>2</userNum>  
+  <user id="1"> 
+    <username>a</username>  
+    <password>a</password>  
+    <nickname>chao</nickname>  
+    <sex>male</sex>  
+    <email>guangchao007@126.com</email> 
+  </user> 
+</root>

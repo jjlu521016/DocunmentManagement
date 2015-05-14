@@ -1,0 +1,1337 @@
+[WARN ] 2015-05-10 22:34:12 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 22:34:12 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 22:34:12 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 22:34:12 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 22:34:12 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 22:34:12 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 22:34:16 localhost-startStop-1 org.hibernate.impl.SessionFactoryObjectFactory - Could not bind factory to JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.bind(NamingContext.java:892)
+	at org.apache.naming.NamingContext.rebind(NamingContext.java:225)
+	at org.apache.naming.SelectorContext.rebind(SelectorContext.java:216)
+	at javax.naming.InitialContext.rebind(Unknown Source)
+	at org.hibernate.util.NamingHelper.bind(NamingHelper.java:97)
+	at org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:113)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:365)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1842)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:793)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:715)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:445)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:419)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[ERROR] 2015-05-10 22:41:35 http-bio-8080-exec-1 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'x' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'x' with value ['14', ]
+[ERROR] 2015-05-10 22:41:35 http-bio-8080-exec-1 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'y' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'y' with value ['25', ]
+[ERROR] 2015-05-10 22:42:48 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['RBAC.pdf', ]
+[ERROR] 2015-05-10 22:42:48 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-05-10 22:42:48 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-05-10 22:42:49 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['RBACÄ£ÐÍ.pdf', ]
+[ERROR] 2015-05-10 22:42:49 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-05-10 22:42:49 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-05-10 22:42:50 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['spcman404.rar', ]
+[ERROR] 2015-05-10 22:42:50 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-05-10 22:42:50 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-05-10 22:42:51 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['t_docmanage_permission.sql', ]
+[ERROR] 2015-05-10 22:42:51 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-05-10 22:42:51 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-05-10 22:42:52 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['test.sql', ]
+[ERROR] 2015-05-10 22:42:52 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-05-10 22:42:52 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-05-10 22:42:52 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['uploaddify.rar', ]
+[ERROR] 2015-05-10 22:42:52 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-05-10 22:42:52 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-05-10 22:42:53 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['visio.vsd', ]
+[ERROR] 2015-05-10 22:42:53 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-05-10 22:42:53 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-05-10 22:42:53 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['zTree%E5%B8%AE%E5%8A%A9.rar', ]
+[ERROR] 2015-05-10 22:42:53 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-05-10 22:42:53 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-05-10 22:42:56 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['ztreeTest.rar', ]
+[ERROR] 2015-05-10 22:42:56 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-05-10 22:42:56 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-05-10 22:42:56 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['zTree-zTree_v3-master.zip', ]
+[ERROR] 2015-05-10 22:42:56 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-05-10 22:42:56 http-bio-8080-exec-6 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-05-10 22:43:58 http-bio-8080-exec-5 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['WebStorm.rar', ]
+[ERROR] 2015-05-10 22:43:58 http-bio-8080-exec-5 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-05-10 22:43:58 http-bio-8080-exec-5 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-05-10 22:47:38 http-bio-8080-exec-7 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fid' on 'class com.bysj.docmanage.view.action.DownloadFileAction: Error setting expression 'fid' with value ['192', ]
+[WARN ] 2015-05-10 22:47:38 http-bio-8080-exec-7 com.opensymphony.xwork2.ognl.OgnlValueStack - Caught an exception while evaluating expression 'inputStream' against value stack
+Caught an Ognl exception while getting property inputStream - Class: ognl.OgnlRuntime
+File: OgnlRuntime.java
+Method: getMethodValue
+Line: 1456 - ognl/OgnlRuntime.java:1456:-1
+	at com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor.getProperty(CompoundRootAccessor.java:143)
+	at ognl.OgnlRuntime.getProperty(OgnlRuntime.java:2317)
+	at ognl.ASTProperty.getValueBody(ASTProperty.java:114)
+	at ognl.SimpleNode.evaluateGetValueBody(SimpleNode.java:212)
+	at ognl.SimpleNode.getValue(SimpleNode.java:258)
+	at ognl.Ognl.getValue(Ognl.java:494)
+	at ognl.Ognl.getValue(Ognl.java:458)
+	at com.opensymphony.xwork2.ognl.OgnlUtil.getValue(OgnlUtil.java:251)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.getValueUsingOgnl(OgnlValueStack.java:292)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.tryFindValue(OgnlValueStack.java:275)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.tryFindValueWhenExpressionIsNotNull(OgnlValueStack.java:257)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.findValue(OgnlValueStack.java:237)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.findValue(OgnlValueStack.java:299)
+	at org.apache.struts2.dispatcher.StreamResult.doExecute(StreamResult.java:230)
+	at org.apache.struts2.dispatcher.StrutsResultSupport.execute(StrutsResultSupport.java:186)
+	at com.opensymphony.xwork2.DefaultActionInvocation.executeResult(DefaultActionInvocation.java:371)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:275)
+	at org.apache.struts2.interceptor.DeprecationInterceptor.intercept(DeprecationInterceptor.java:41)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.debugging.DebuggingInterceptor.intercept(DebuggingInterceptor.java:256)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.DefaultWorkflowInterceptor.doIntercept(DefaultWorkflowInterceptor.java:167)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.validator.ValidationInterceptor.doIntercept(ValidationInterceptor.java:265)
+	at org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.doIntercept(AnnotationValidationInterceptor.java:68)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ConversionErrorInterceptor.intercept(ConversionErrorInterceptor.java:138)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:249)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:249)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:139)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.bysj.docmanage.util.CheckPermission.intercept(CheckPermission.java:47)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:562)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.orm.hibernate3.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:232)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: ognl.OgnlException: inputStream [java.lang.NullPointerException]
+	at ognl.OgnlRuntime.getMethodValue(OgnlRuntime.java:1456)
+	at ognl.ObjectPropertyAccessor.getPossibleProperty(ObjectPropertyAccessor.java:60)
+	at ognl.ObjectPropertyAccessor.getProperty(ObjectPropertyAccessor.java:147)
+	at com.opensymphony.xwork2.ognl.accessor.ObjectAccessor.getProperty(ObjectAccessor.java:17)
+	at ognl.OgnlRuntime.getProperty(OgnlRuntime.java:2317)
+	at com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor.getProperty(CompoundRootAccessor.java:138)
+	... 87 more
+Caused by: java.lang.NullPointerException
+	at java.io.File.<init>(Unknown Source)
+	at com.bysj.docmanage.view.action.DownloadFileAction.getInputStream(DownloadFileAction.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at ognl.OgnlRuntime.invokeMethod(OgnlRuntime.java:870)
+	at ognl.OgnlRuntime.getMethodValue(OgnlRuntime.java:1454)
+	... 92 more
+[WARN ] 2015-05-10 22:47:38 http-bio-8080-exec-7 com.opensymphony.xwork2.ognl.OgnlValueStack - NOTE: Previous warning message was issued due to devMode set to true.
+[ERROR] 2015-05-10 22:47:38 http-bio-8080-exec-7 org.apache.struts2.dispatcher.StreamResult - Can not find a java.io.InputStream with the name [inputStream] in the invocation stack. Check the <param name="inputName"> tag specified for this action.
+[ERROR] 2015-05-10 22:47:44 http-bio-8080-exec-3 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fid' on 'class com.bysj.docmanage.view.action.DownloadFileAction: Error setting expression 'fid' with value ['194', ]
+[WARN ] 2015-05-10 22:47:45 http-bio-8080-exec-3 com.opensymphony.xwork2.ognl.OgnlValueStack - Caught an exception while evaluating expression 'inputStream' against value stack
+Caught an Ognl exception while getting property inputStream - Class: ognl.OgnlRuntime
+File: OgnlRuntime.java
+Method: getMethodValue
+Line: 1456 - ognl/OgnlRuntime.java:1456:-1
+	at com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor.getProperty(CompoundRootAccessor.java:143)
+	at ognl.OgnlRuntime.getProperty(OgnlRuntime.java:2317)
+	at ognl.ASTProperty.getValueBody(ASTProperty.java:114)
+	at ognl.SimpleNode.evaluateGetValueBody(SimpleNode.java:212)
+	at ognl.SimpleNode.getValue(SimpleNode.java:258)
+	at ognl.Ognl.getValue(Ognl.java:494)
+	at ognl.Ognl.getValue(Ognl.java:458)
+	at com.opensymphony.xwork2.ognl.OgnlUtil.getValue(OgnlUtil.java:251)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.getValueUsingOgnl(OgnlValueStack.java:292)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.tryFindValue(OgnlValueStack.java:275)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.tryFindValueWhenExpressionIsNotNull(OgnlValueStack.java:257)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.findValue(OgnlValueStack.java:237)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.findValue(OgnlValueStack.java:299)
+	at org.apache.struts2.dispatcher.StreamResult.doExecute(StreamResult.java:230)
+	at org.apache.struts2.dispatcher.StrutsResultSupport.execute(StrutsResultSupport.java:186)
+	at com.opensymphony.xwork2.DefaultActionInvocation.executeResult(DefaultActionInvocation.java:371)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:275)
+	at org.apache.struts2.interceptor.DeprecationInterceptor.intercept(DeprecationInterceptor.java:41)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.debugging.DebuggingInterceptor.intercept(DebuggingInterceptor.java:256)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.DefaultWorkflowInterceptor.doIntercept(DefaultWorkflowInterceptor.java:167)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.validator.ValidationInterceptor.doIntercept(ValidationInterceptor.java:265)
+	at org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.doIntercept(AnnotationValidationInterceptor.java:68)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ConversionErrorInterceptor.intercept(ConversionErrorInterceptor.java:138)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:249)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:249)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:139)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.bysj.docmanage.util.CheckPermission.intercept(CheckPermission.java:47)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:562)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.orm.hibernate3.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:232)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: ognl.OgnlException: inputStream [java.lang.NullPointerException]
+	at ognl.OgnlRuntime.getMethodValue(OgnlRuntime.java:1456)
+	at ognl.ObjectPropertyAccessor.getPossibleProperty(ObjectPropertyAccessor.java:60)
+	at ognl.ObjectPropertyAccessor.getProperty(ObjectPropertyAccessor.java:147)
+	at com.opensymphony.xwork2.ognl.accessor.ObjectAccessor.getProperty(ObjectAccessor.java:17)
+	at ognl.OgnlRuntime.getProperty(OgnlRuntime.java:2317)
+	at com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor.getProperty(CompoundRootAccessor.java:138)
+	... 87 more
+Caused by: java.lang.NullPointerException
+	at java.io.File.<init>(Unknown Source)
+	at com.bysj.docmanage.view.action.DownloadFileAction.getInputStream(DownloadFileAction.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at ognl.OgnlRuntime.invokeMethod(OgnlRuntime.java:891)
+	at ognl.OgnlRuntime.getMethodValue(OgnlRuntime.java:1454)
+	... 92 more
+[WARN ] 2015-05-10 22:47:45 http-bio-8080-exec-3 com.opensymphony.xwork2.ognl.OgnlValueStack - NOTE: Previous warning message was issued due to devMode set to true.
+[ERROR] 2015-05-10 22:47:45 http-bio-8080-exec-3 org.apache.struts2.dispatcher.StreamResult - Can not find a java.io.InputStream with the name [inputStream] in the invocation stack. Check the <param name="inputName"> tag specified for this action.
+[ERROR] 2015-05-10 22:47:52 http-bio-8080-exec-3 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fid' on 'class com.bysj.docmanage.view.action.DownloadFileAction: Error setting expression 'fid' with value ['213', ]
+[WARN ] 2015-05-10 22:47:52 http-bio-8080-exec-3 com.opensymphony.xwork2.ognl.OgnlValueStack - Caught an exception while evaluating expression 'inputStream' against value stack
+Caught an Ognl exception while getting property inputStream - Class: ognl.OgnlRuntime
+File: OgnlRuntime.java
+Method: getMethodValue
+Line: 1456 - ognl/OgnlRuntime.java:1456:-1
+	at com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor.getProperty(CompoundRootAccessor.java:143)
+	at ognl.OgnlRuntime.getProperty(OgnlRuntime.java:2317)
+	at ognl.ASTProperty.getValueBody(ASTProperty.java:114)
+	at ognl.SimpleNode.evaluateGetValueBody(SimpleNode.java:212)
+	at ognl.SimpleNode.getValue(SimpleNode.java:258)
+	at ognl.Ognl.getValue(Ognl.java:494)
+	at ognl.Ognl.getValue(Ognl.java:458)
+	at com.opensymphony.xwork2.ognl.OgnlUtil.getValue(OgnlUtil.java:251)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.getValueUsingOgnl(OgnlValueStack.java:292)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.tryFindValue(OgnlValueStack.java:275)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.tryFindValueWhenExpressionIsNotNull(OgnlValueStack.java:257)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.findValue(OgnlValueStack.java:237)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.findValue(OgnlValueStack.java:299)
+	at org.apache.struts2.dispatcher.StreamResult.doExecute(StreamResult.java:230)
+	at org.apache.struts2.dispatcher.StrutsResultSupport.execute(StrutsResultSupport.java:186)
+	at com.opensymphony.xwork2.DefaultActionInvocation.executeResult(DefaultActionInvocation.java:371)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:275)
+	at org.apache.struts2.interceptor.DeprecationInterceptor.intercept(DeprecationInterceptor.java:41)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.debugging.DebuggingInterceptor.intercept(DebuggingInterceptor.java:256)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.DefaultWorkflowInterceptor.doIntercept(DefaultWorkflowInterceptor.java:167)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.validator.ValidationInterceptor.doIntercept(ValidationInterceptor.java:265)
+	at org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.doIntercept(AnnotationValidationInterceptor.java:68)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ConversionErrorInterceptor.intercept(ConversionErrorInterceptor.java:138)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:249)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:249)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:139)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.bysj.docmanage.util.CheckPermission.intercept(CheckPermission.java:47)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:562)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.orm.hibernate3.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:232)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: ognl.OgnlException: inputStream [java.lang.NullPointerException]
+	at ognl.OgnlRuntime.getMethodValue(OgnlRuntime.java:1456)
+	at ognl.ObjectPropertyAccessor.getPossibleProperty(ObjectPropertyAccessor.java:60)
+	at ognl.ObjectPropertyAccessor.getProperty(ObjectPropertyAccessor.java:147)
+	at com.opensymphony.xwork2.ognl.accessor.ObjectAccessor.getProperty(ObjectAccessor.java:17)
+	at ognl.OgnlRuntime.getProperty(OgnlRuntime.java:2317)
+	at com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor.getProperty(CompoundRootAccessor.java:138)
+	... 87 more
+Caused by: java.lang.NullPointerException
+	at java.io.File.<init>(Unknown Source)
+	at com.bysj.docmanage.view.action.DownloadFileAction.getInputStream(DownloadFileAction.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at ognl.OgnlRuntime.invokeMethod(OgnlRuntime.java:891)
+	at ognl.OgnlRuntime.getMethodValue(OgnlRuntime.java:1454)
+	... 92 more
+[WARN ] 2015-05-10 22:47:52 http-bio-8080-exec-3 com.opensymphony.xwork2.ognl.OgnlValueStack - NOTE: Previous warning message was issued due to devMode set to true.
+[ERROR] 2015-05-10 22:47:52 http-bio-8080-exec-3 org.apache.struts2.dispatcher.StreamResult - Can not find a java.io.InputStream with the name [inputStream] in the invocation stack. Check the <param name="inputName"> tag specified for this action.
+[ERROR] 2015-05-10 22:48:36 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fid' on 'class com.bysj.docmanage.view.action.DownloadFileAction: Error setting expression 'fid' with value ['211', ]
+[WARN ] 2015-05-10 22:48:36 http-bio-8080-exec-2 com.opensymphony.xwork2.ognl.OgnlValueStack - Caught an exception while evaluating expression 'inputStream' against value stack
+Caught an Ognl exception while getting property inputStream - Class: ognl.OgnlRuntime
+File: OgnlRuntime.java
+Method: getMethodValue
+Line: 1456 - ognl/OgnlRuntime.java:1456:-1
+	at com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor.getProperty(CompoundRootAccessor.java:143)
+	at ognl.OgnlRuntime.getProperty(OgnlRuntime.java:2317)
+	at ognl.ASTProperty.getValueBody(ASTProperty.java:114)
+	at ognl.SimpleNode.evaluateGetValueBody(SimpleNode.java:212)
+	at ognl.SimpleNode.getValue(SimpleNode.java:258)
+	at ognl.Ognl.getValue(Ognl.java:494)
+	at ognl.Ognl.getValue(Ognl.java:458)
+	at com.opensymphony.xwork2.ognl.OgnlUtil.getValue(OgnlUtil.java:251)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.getValueUsingOgnl(OgnlValueStack.java:292)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.tryFindValue(OgnlValueStack.java:275)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.tryFindValueWhenExpressionIsNotNull(OgnlValueStack.java:257)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.findValue(OgnlValueStack.java:237)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.findValue(OgnlValueStack.java:299)
+	at org.apache.struts2.dispatcher.StreamResult.doExecute(StreamResult.java:230)
+	at org.apache.struts2.dispatcher.StrutsResultSupport.execute(StrutsResultSupport.java:186)
+	at com.opensymphony.xwork2.DefaultActionInvocation.executeResult(DefaultActionInvocation.java:371)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:275)
+	at org.apache.struts2.interceptor.DeprecationInterceptor.intercept(DeprecationInterceptor.java:41)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.debugging.DebuggingInterceptor.intercept(DebuggingInterceptor.java:256)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.DefaultWorkflowInterceptor.doIntercept(DefaultWorkflowInterceptor.java:167)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.validator.ValidationInterceptor.doIntercept(ValidationInterceptor.java:265)
+	at org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.doIntercept(AnnotationValidationInterceptor.java:68)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ConversionErrorInterceptor.intercept(ConversionErrorInterceptor.java:138)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:249)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:249)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:139)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.bysj.docmanage.util.CheckPermission.intercept(CheckPermission.java:47)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:562)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.orm.hibernate3.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:232)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: ognl.OgnlException: inputStream [java.lang.NullPointerException]
+	at ognl.OgnlRuntime.getMethodValue(OgnlRuntime.java:1456)
+	at ognl.ObjectPropertyAccessor.getPossibleProperty(ObjectPropertyAccessor.java:60)
+	at ognl.ObjectPropertyAccessor.getProperty(ObjectPropertyAccessor.java:147)
+	at com.opensymphony.xwork2.ognl.accessor.ObjectAccessor.getProperty(ObjectAccessor.java:17)
+	at ognl.OgnlRuntime.getProperty(OgnlRuntime.java:2317)
+	at com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor.getProperty(CompoundRootAccessor.java:138)
+	... 87 more
+Caused by: java.lang.NullPointerException
+	at java.io.File.<init>(Unknown Source)
+	at com.bysj.docmanage.view.action.DownloadFileAction.getInputStream(DownloadFileAction.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at ognl.OgnlRuntime.invokeMethod(OgnlRuntime.java:891)
+	at ognl.OgnlRuntime.getMethodValue(OgnlRuntime.java:1454)
+	... 92 more
+[WARN ] 2015-05-10 22:48:36 http-bio-8080-exec-2 com.opensymphony.xwork2.ognl.OgnlValueStack - NOTE: Previous warning message was issued due to devMode set to true.
+[ERROR] 2015-05-10 22:48:36 http-bio-8080-exec-2 org.apache.struts2.dispatcher.StreamResult - Can not find a java.io.InputStream with the name [inputStream] in the invocation stack. Check the <param name="inputName"> tag specified for this action.
+[ERROR] 2015-05-10 22:49:28 http-bio-8080-exec-10 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['HEU_KMS_Activator_v7.8.6.rar', ]
+[ERROR] 2015-05-10 22:49:28 http-bio-8080-exec-10 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-05-10 22:49:28 http-bio-8080-exec-10 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-05-10 22:49:30 http-bio-8080-exec-10 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['PE.Explorer_setup_1.99.6.1400.exe', ]
+[ERROR] 2015-05-10 22:49:30 http-bio-8080-exec-10 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-05-10 22:49:30 http-bio-8080-exec-10 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-05-10 22:49:32 http-bio-8080-exec-1 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['SSHSecureShellClient-3[1].2.9.exe', ]
+[ERROR] 2015-05-10 22:49:32 http-bio-8080-exec-1 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-05-10 22:49:32 http-bio-8080-exec-1 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-05-10 22:49:33 http-bio-8080-exec-3 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['VM10KeyGen.rar', ]
+[ERROR] 2015-05-10 22:49:33 http-bio-8080-exec-3 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-05-10 22:49:33 http-bio-8080-exec-3 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-05-10 22:50:13 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['HEU_KMS_Activator_v7.8.6.rar', ]
+[ERROR] 2015-05-10 22:50:13 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-05-10 22:50:13 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-05-10 22:50:14 http-bio-8080-exec-8 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['PE.Explorer_setup_1.99.6.1400.exe', ]
+[ERROR] 2015-05-10 22:50:14 http-bio-8080-exec-8 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-05-10 22:50:14 http-bio-8080-exec-8 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-05-10 22:50:16 http-bio-8080-exec-8 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['SSHSecureShellClient-3[1].2.9.exe', ]
+[ERROR] 2015-05-10 22:50:16 http-bio-8080-exec-8 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-05-10 22:50:16 http-bio-8080-exec-8 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-05-10 22:50:19 http-bio-8080-exec-8 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['Syncfusion Metro Studio 2.0.1.2 Ãâ×¢²á°æ.rar', ]
+[ERROR] 2015-05-10 22:50:19 http-bio-8080-exec-8 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-05-10 22:50:19 http-bio-8080-exec-8 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-05-10 22:50:38 http-bio-8080-exec-1 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fid' on 'class com.bysj.docmanage.view.action.DownloadFileAction: Error setting expression 'fid' with value ['226', ]
+[WARN ] 2015-05-10 22:50:38 http-bio-8080-exec-1 com.opensymphony.xwork2.ognl.OgnlValueStack - Caught an exception while evaluating expression 'inputStream' against value stack
+Caught an Ognl exception while getting property inputStream - Class: ognl.OgnlRuntime
+File: OgnlRuntime.java
+Method: getMethodValue
+Line: 1456 - ognl/OgnlRuntime.java:1456:-1
+	at com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor.getProperty(CompoundRootAccessor.java:143)
+	at ognl.OgnlRuntime.getProperty(OgnlRuntime.java:2317)
+	at ognl.ASTProperty.getValueBody(ASTProperty.java:114)
+	at ognl.SimpleNode.evaluateGetValueBody(SimpleNode.java:212)
+	at ognl.SimpleNode.getValue(SimpleNode.java:258)
+	at ognl.Ognl.getValue(Ognl.java:494)
+	at ognl.Ognl.getValue(Ognl.java:458)
+	at com.opensymphony.xwork2.ognl.OgnlUtil.getValue(OgnlUtil.java:251)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.getValueUsingOgnl(OgnlValueStack.java:292)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.tryFindValue(OgnlValueStack.java:275)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.tryFindValueWhenExpressionIsNotNull(OgnlValueStack.java:257)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.findValue(OgnlValueStack.java:237)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.findValue(OgnlValueStack.java:299)
+	at org.apache.struts2.dispatcher.StreamResult.doExecute(StreamResult.java:230)
+	at org.apache.struts2.dispatcher.StrutsResultSupport.execute(StrutsResultSupport.java:186)
+	at com.opensymphony.xwork2.DefaultActionInvocation.executeResult(DefaultActionInvocation.java:371)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:275)
+	at org.apache.struts2.interceptor.DeprecationInterceptor.intercept(DeprecationInterceptor.java:41)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.debugging.DebuggingInterceptor.intercept(DebuggingInterceptor.java:256)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.DefaultWorkflowInterceptor.doIntercept(DefaultWorkflowInterceptor.java:167)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.validator.ValidationInterceptor.doIntercept(ValidationInterceptor.java:265)
+	at org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.doIntercept(AnnotationValidationInterceptor.java:68)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ConversionErrorInterceptor.intercept(ConversionErrorInterceptor.java:138)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:249)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:249)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:139)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.bysj.docmanage.util.CheckPermission.intercept(CheckPermission.java:47)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:562)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.orm.hibernate3.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:232)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: ognl.OgnlException: inputStream [java.lang.NullPointerException]
+	at ognl.OgnlRuntime.getMethodValue(OgnlRuntime.java:1456)
+	at ognl.ObjectPropertyAccessor.getPossibleProperty(ObjectPropertyAccessor.java:60)
+	at ognl.ObjectPropertyAccessor.getProperty(ObjectPropertyAccessor.java:147)
+	at com.opensymphony.xwork2.ognl.accessor.ObjectAccessor.getProperty(ObjectAccessor.java:17)
+	at ognl.OgnlRuntime.getProperty(OgnlRuntime.java:2317)
+	at com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor.getProperty(CompoundRootAccessor.java:138)
+	... 87 more
+Caused by: java.lang.NullPointerException
+	at java.io.File.<init>(Unknown Source)
+	at com.bysj.docmanage.view.action.DownloadFileAction.getInputStream(DownloadFileAction.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at ognl.OgnlRuntime.invokeMethod(OgnlRuntime.java:891)
+	at ognl.OgnlRuntime.getMethodValue(OgnlRuntime.java:1454)
+	... 92 more
+[WARN ] 2015-05-10 22:50:38 http-bio-8080-exec-1 com.opensymphony.xwork2.ognl.OgnlValueStack - NOTE: Previous warning message was issued due to devMode set to true.
+[ERROR] 2015-05-10 22:50:38 http-bio-8080-exec-1 org.apache.struts2.dispatcher.StreamResult - Can not find a java.io.InputStream with the name [inputStream] in the invocation stack. Check the <param name="inputName"> tag specified for this action.
+[WARN ] 2015-05-10 22:52:01 localhost-startStop-2 org.hibernate.impl.SessionFactoryObjectFactory - Could not unbind factory from JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:269)
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:304)
+	at org.apache.naming.SelectorContext.unbind(SelectorContext.java:268)
+	at javax.naming.InitialContext.unbind(Unknown Source)
+	at org.hibernate.impl.SessionFactoryObjectFactory.removeInstance(SessionFactoryObjectFactory.java:139)
+	at org.hibernate.impl.SessionFactoryImpl.close(SessionFactoryImpl.java:966)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.destroy(AbstractSessionFactoryBean.java:230)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.destroy(LocalSessionFactoryBean.java:832)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:257)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:540)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:516)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:824)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:485)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:921)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:841)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5014)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5659)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 2015-05-10 22:52:46 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 22:52:46 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 22:52:46 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 22:52:46 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 22:52:46 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 22:52:46 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 22:52:51 localhost-startStop-1 org.hibernate.impl.SessionFactoryObjectFactory - Could not bind factory to JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.bind(NamingContext.java:892)
+	at org.apache.naming.NamingContext.rebind(NamingContext.java:225)
+	at org.apache.naming.SelectorContext.rebind(SelectorContext.java:216)
+	at javax.naming.InitialContext.rebind(Unknown Source)
+	at org.hibernate.util.NamingHelper.bind(NamingHelper.java:97)
+	at org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:113)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:365)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1842)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:793)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:715)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:445)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:419)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[ERROR] 2015-05-10 23:04:15 http-bio-8080-exec-9 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'x' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'x' with value ['43', ]
+[ERROR] 2015-05-10 23:04:15 http-bio-8080-exec-9 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'y' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'y' with value ['27', ]
+[ERROR] 2015-05-10 23:06:11 http-bio-8080-exec-3 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fid' on 'class com.bysj.docmanage.view.action.DownloadFileAction: Error setting expression 'fid' with value ['226', ]
+[WARN ] 2015-05-10 23:07:45 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not unbind factory from JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:269)
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:304)
+	at org.apache.naming.SelectorContext.unbind(SelectorContext.java:268)
+	at javax.naming.InitialContext.unbind(Unknown Source)
+	at org.hibernate.impl.SessionFactoryObjectFactory.removeInstance(SessionFactoryObjectFactory.java:139)
+	at org.hibernate.impl.SessionFactoryImpl.close(SessionFactoryImpl.java:966)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.destroy(AbstractSessionFactoryBean.java:230)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.destroy(LocalSessionFactoryBean.java:832)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:257)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:540)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:516)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:824)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:485)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:921)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:841)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5014)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5659)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3981)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 2015-05-10 23:08:16 ContainerBackgroundProcessor[StandardEngine[Catalina]] com.mchange.v2.c3p0.management.ActiveManagementCoordinator - A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+[WARN ] 2015-05-10 23:08:22 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:08:22 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:08:22 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:08:22 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:08:22 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:08:22 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:08:27 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not bind factory to JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.bind(NamingContext.java:892)
+	at org.apache.naming.NamingContext.rebind(NamingContext.java:225)
+	at org.apache.naming.SelectorContext.rebind(SelectorContext.java:216)
+	at javax.naming.InitialContext.rebind(Unknown Source)
+	at org.hibernate.util.NamingHelper.bind(NamingHelper.java:97)
+	at org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:113)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:365)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1842)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:793)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:715)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:445)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:419)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3988)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 2015-05-10 23:08:48 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not unbind factory from JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:269)
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:304)
+	at org.apache.naming.SelectorContext.unbind(SelectorContext.java:268)
+	at javax.naming.InitialContext.unbind(Unknown Source)
+	at org.hibernate.impl.SessionFactoryObjectFactory.removeInstance(SessionFactoryObjectFactory.java:139)
+	at org.hibernate.impl.SessionFactoryImpl.close(SessionFactoryImpl.java:966)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.destroy(AbstractSessionFactoryBean.java:230)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.destroy(LocalSessionFactoryBean.java:832)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:257)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:540)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:516)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:824)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:485)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:921)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:841)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5014)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5659)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3981)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 2015-05-10 23:09:06 ContainerBackgroundProcessor[StandardEngine[Catalina]] com.mchange.v2.c3p0.management.ActiveManagementCoordinator - A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+[WARN ] 2015-05-10 23:09:09 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:09:09 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:09:09 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:09:09 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:09:09 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:09:09 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:09:14 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not bind factory to JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.bind(NamingContext.java:892)
+	at org.apache.naming.NamingContext.rebind(NamingContext.java:225)
+	at org.apache.naming.SelectorContext.rebind(SelectorContext.java:216)
+	at javax.naming.InitialContext.rebind(Unknown Source)
+	at org.hibernate.util.NamingHelper.bind(NamingHelper.java:97)
+	at org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:113)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:365)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1842)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:793)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:715)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:445)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:419)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3988)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[ERROR] 2015-05-10 23:09:26 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'x' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'x' with value ['38', ]
+[ERROR] 2015-05-10 23:09:26 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'y' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'y' with value ['30', ]
+[ERROR] 2015-05-10 23:10:11 http-bio-8080-exec-21 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fid' on 'class com.bysj.docmanage.view.action.DownloadFileAction: Error setting expression 'fid' with value ['226', ]
+[WARN ] 2015-05-10 23:11:09 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not unbind factory from JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:269)
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:304)
+	at org.apache.naming.SelectorContext.unbind(SelectorContext.java:268)
+	at javax.naming.InitialContext.unbind(Unknown Source)
+	at org.hibernate.impl.SessionFactoryObjectFactory.removeInstance(SessionFactoryObjectFactory.java:139)
+	at org.hibernate.impl.SessionFactoryImpl.close(SessionFactoryImpl.java:966)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.destroy(AbstractSessionFactoryBean.java:230)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.destroy(LocalSessionFactoryBean.java:832)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:257)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:540)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:516)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:824)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:485)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:921)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:841)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5014)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5659)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3981)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 2015-05-10 23:11:35 ContainerBackgroundProcessor[StandardEngine[Catalina]] com.mchange.v2.c3p0.management.ActiveManagementCoordinator - A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+[WARN ] 2015-05-10 23:11:40 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:11:40 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:11:40 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:11:40 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:11:40 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:11:40 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:15:28 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:15:28 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:15:29 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:15:29 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:15:29 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:15:29 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:15:34 localhost-startStop-1 org.hibernate.impl.SessionFactoryObjectFactory - Could not bind factory to JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.bind(NamingContext.java:892)
+	at org.apache.naming.NamingContext.rebind(NamingContext.java:225)
+	at org.apache.naming.SelectorContext.rebind(SelectorContext.java:216)
+	at javax.naming.InitialContext.rebind(Unknown Source)
+	at org.hibernate.util.NamingHelper.bind(NamingHelper.java:97)
+	at org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:113)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:365)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1842)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:793)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:715)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:445)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:419)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[ERROR] 2015-05-10 23:16:01 http-bio-8080-exec-9 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'x' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'x' with value ['28', ]
+[ERROR] 2015-05-10 23:16:01 http-bio-8080-exec-9 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'y' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'y' with value ['25', ]
+[WARN ] 2015-05-10 23:16:06 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not unbind factory from JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:269)
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:304)
+	at org.apache.naming.SelectorContext.unbind(SelectorContext.java:268)
+	at javax.naming.InitialContext.unbind(Unknown Source)
+	at org.hibernate.impl.SessionFactoryObjectFactory.removeInstance(SessionFactoryObjectFactory.java:139)
+	at org.hibernate.impl.SessionFactoryImpl.close(SessionFactoryImpl.java:966)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.destroy(AbstractSessionFactoryBean.java:230)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.destroy(LocalSessionFactoryBean.java:832)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:257)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:540)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:516)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:824)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:485)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:921)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:841)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5014)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5659)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3981)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 2015-05-10 23:16:25 ContainerBackgroundProcessor[StandardEngine[Catalina]] com.mchange.v2.c3p0.management.ActiveManagementCoordinator - A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+[WARN ] 2015-05-10 23:16:28 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:16:28 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:16:28 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:16:28 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:16:28 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:16:28 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:16:32 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not bind factory to JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.bind(NamingContext.java:892)
+	at org.apache.naming.NamingContext.rebind(NamingContext.java:225)
+	at org.apache.naming.SelectorContext.rebind(SelectorContext.java:216)
+	at javax.naming.InitialContext.rebind(Unknown Source)
+	at org.hibernate.util.NamingHelper.bind(NamingHelper.java:97)
+	at org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:113)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:365)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1842)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:793)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:715)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:445)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:419)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3988)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[ERROR] 2015-05-10 23:18:55 http-bio-8080-exec-14 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'x' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'x' with value ['25', ]
+[ERROR] 2015-05-10 23:18:55 http-bio-8080-exec-14 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'y' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'y' with value ['21', ]
+[WARN ] 2015-05-10 23:19:46 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not unbind factory from JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:269)
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:304)
+	at org.apache.naming.SelectorContext.unbind(SelectorContext.java:268)
+	at javax.naming.InitialContext.unbind(Unknown Source)
+	at org.hibernate.impl.SessionFactoryObjectFactory.removeInstance(SessionFactoryObjectFactory.java:139)
+	at org.hibernate.impl.SessionFactoryImpl.close(SessionFactoryImpl.java:966)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.destroy(AbstractSessionFactoryBean.java:230)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.destroy(LocalSessionFactoryBean.java:832)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:257)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:540)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:516)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:824)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:485)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:921)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:841)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5014)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5659)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3981)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 2015-05-10 23:20:45 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:20:45 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:20:45 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:20:45 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:20:45 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:20:45 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-05-10 23:20:49 localhost-startStop-1 org.hibernate.impl.SessionFactoryObjectFactory - Could not bind factory to JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.bind(NamingContext.java:892)
+	at org.apache.naming.NamingContext.rebind(NamingContext.java:225)
+	at org.apache.naming.SelectorContext.rebind(SelectorContext.java:216)
+	at javax.naming.InitialContext.rebind(Unknown Source)
+	at org.hibernate.util.NamingHelper.bind(NamingHelper.java:97)
+	at org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:113)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:365)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1842)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:793)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:715)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:445)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:419)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[ERROR] 2015-05-10 23:28:10 http-bio-8080-exec-4 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'x' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'x' with value ['29', ]
+[ERROR] 2015-05-10 23:28:10 http-bio-8080-exec-4 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'y' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'y' with value ['28', ]
+[WARN ] 2015-05-10 23:39:30 localhost-startStop-2 org.hibernate.impl.SessionFactoryObjectFactory - Could not unbind factory from JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:269)
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:304)
+	at org.apache.naming.SelectorContext.unbind(SelectorContext.java:268)
+	at javax.naming.InitialContext.unbind(Unknown Source)
+	at org.hibernate.impl.SessionFactoryObjectFactory.removeInstance(SessionFactoryObjectFactory.java:139)
+	at org.hibernate.impl.SessionFactoryImpl.close(SessionFactoryImpl.java:966)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.destroy(AbstractSessionFactoryBean.java:230)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.destroy(LocalSessionFactoryBean.java:832)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:257)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:540)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:516)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:824)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:485)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:921)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:841)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5014)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5659)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)

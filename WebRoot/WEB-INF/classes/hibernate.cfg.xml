@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <!-- 1，数据库连接信息 -->
+  <property name="dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+  <property name="show_sql">true</property>
+  <property name="hbm2ddl.auto">update</property>
+  <!-- 项目集成时出现问题，就是缺少这句话的原因javax.persistence.validation.mode默认情况下是auto的，就是说如果不设置的话它是会自动去你的classpath下面找一个bean-validation**包，但是找不到，所以beanvalitionFactory错误。 -->
+  <property name="javax.persistence.validation.mode">none</property>
+  <mapping resource="com/bysj/docmanage/domain/Permission.hbm.xml"/>
+  <mapping resource="com/bysj/docmanage/domain/Department.hbm.xml"/>
+  <mapping resource="com/bysj/docmanage/domain/Role.hbm.xml"/>
+  <mapping resource="com/bysj/docmanage/domain/User.hbm.xml"/>
+ </session-factory>
+</hibernate-configuration>

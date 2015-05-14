@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<!-- 配置为开发模式 -->
+	<constant name="struts.devMode" value="true" />
+	<!-- 把扩展名配置为action -->
+	<constant name="struts.action.extension" value="action" />
+	<!-- 把主题配置为simple -->
+	<constant name="struts.ui.theme" value="simple" />
+
+
+	<package name="default" namespace="/" extends="struts-default">
+
+		<interceptors>
+			<!-- 声明拦截器 -->
+			<interceptor name="checkPermi" class="com.bysj.docmanage.util.CheckPermission">
+			</interceptor>
+			<!-- 重新定義默认拦截器栈 -->
+			<interceptor-stack name="defaultStack">
+				<interceptor-ref name="checkPermi"></interceptor-ref>
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+			</interceptor-stack>
+
+		</interceptors>
+		<!-- 全局result -->
+		<global-results>
+			<result name="loginUI">/WEB-INF/jsp/loginUI.jsp</result>
+			<result name="noPermissionError">/WEB-INF/jsp/noPermissionError.jsp</result>
+		</global-results>
+
+		<!-- 配置测试用的Action，未与Spring整合，class属性写类的全名 -->
+		<!-- 当Struts2与Spring整合后，class属性可以写bean的名称 -->
+		<action name="test" class="testAction">
+			<result name="success">/test.jsp</result>
+		</action>
+
+		<!-- 角色管理 -->
+
+		<action name="role_*" class="roleAction" method="{1}">
+			<result name="list">/WEB-INF/jsp/admin/roleAction/list.jsp</result>
+			<result name="addUI">/WEB-INF/jsp/admin/roleAction/saveUI.jsp</result>
+			<result name="editUI">/WEB-INF/jsp/admin/roleAction/saveUI.jsp</result>
+			<result name="setPermissionUI">/WEB-INF/jsp/admin/roleAction/setPermission.jsp
+			</result>
+			<result name="tolist" type="redirectAction">role_list</result>
+		</action>
+
+		<!-- 部门管理 -->
+		<action name="department_*" class="departmentAction" method="{1}">
+			<result name="list">/WEB-INF/jsp/admin/departmentAction/list.jsp
+			</result>
+			<result name="addUI">/WEB-INF/jsp/admin/departmentAction/saveUI.jsp
+			</result>
+			<result name="editUI">/WEB-INF/jsp/admin/departmentAction/saveUI.jsp
+			</result>
+			<result name="tolist" type="redirectAction">department_list?parentId=${parentId}
+			</result>
+		</action>
+
+		<!-- 用户管理 -->
+		<action name="user_*" class="userAction" method="{1}">
+			<result name="list">/WEB-INF/jsp/admin/userAction/list.jsp</result>
+			<result name="addUI">/WEB-INF/jsp/admin/userAction/saveUI.jsp</result>
+			<result name="editUI">/WEB-INF/jsp/admin/userAction/saveUI.jsp</result>
+			<result name="tolist" type="redirectAction">user_list</result>
+
+			<result name="logout">/WEB-INF/jsp/logout.jsp</result>
+			<result name="toIndex" type="redirectAction">home_index</result>
+			<!-- 修改个人信息 -->
+			<result name="editInfoUI">/WEB-INF/jsp/admin/userAction/ModifyUI.jsp
+			</result>
+			<result name="editInfo">/WEB-INF/jsp/homeAction/top.jsp</result>
+		</action>
+
+
+		<!-- 整体框架及首页显示 -->
+		<action name="home_*" class="homeAction" method="{1}">
+			<result name="{1}">/WEB-INF/jsp/homeAction/{1}.jsp</result>
+		</action>
+
+	</package>
+
+	<!-- Add packages here -->
+
+</struts>

@@ -1,0 +1,849 @@
+[WARN ] 2015-04-28 23:01:18 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:01:18 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:01:18 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:01:18 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:01:18 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:01:18 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:01:25 localhost-startStop-1 org.hibernate.impl.SessionFactoryObjectFactory - Could not bind factory to JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.bind(NamingContext.java:892)
+	at org.apache.naming.NamingContext.rebind(NamingContext.java:225)
+	at org.apache.naming.SelectorContext.rebind(SelectorContext.java:216)
+	at javax.naming.InitialContext.rebind(Unknown Source)
+	at org.hibernate.util.NamingHelper.bind(NamingHelper.java:97)
+	at org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:113)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:365)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1842)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:793)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:715)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:445)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:419)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[ERROR] 2015-04-28 23:02:21 http-bio-8080-exec-5 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'x' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'x' with value ['49', ]
+[ERROR] 2015-04-28 23:02:21 http-bio-8080-exec-5 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'y' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'y' with value ['32', ]
+[ERROR] 2015-04-28 23:02:57 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['up-downLoad.zip', ]
+[ERROR] 2015-04-28 23:02:57 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:02:57 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:02:58 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['visio.vsd', ]
+[ERROR] 2015-04-28 23:02:58 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:02:58 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:02:59 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['zTree-zTree_v3-master.zip', ]
+[ERROR] 2015-04-28 23:02:59 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:02:59 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:02:59 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['进展报告.doc', ]
+[ERROR] 2015-04-28 23:02:59 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:02:59 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:02:59 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['链接.txt', ]
+[ERROR] 2015-04-28 23:02:59 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:02:59 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:03:00 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['文件上传下载.zip', ]
+[ERROR] 2015-04-28 23:03:00 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:03:00 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:03:01 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['项目进度报告.doc', ]
+[ERROR] 2015-04-28 23:03:01 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:03:01 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:09:27 http-bio-8080-exec-7 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['小Q截图-20150216121509.png', ]
+[ERROR] 2015-04-28 23:09:27 http-bio-8080-exec-7 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:09:27 http-bio-8080-exec-7 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:09:28 http-bio-8080-exec-7 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['小Q截图-20150216214342.png', ]
+[ERROR] 2015-04-28 23:09:28 http-bio-8080-exec-7 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:09:28 http-bio-8080-exec-7 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:09:28 http-bio-8080-exec-7 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['小Q截图-20150216214732.png', ]
+[ERROR] 2015-04-28 23:09:28 http-bio-8080-exec-7 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:09:28 http-bio-8080-exec-7 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:09:28 http-bio-8080-exec-7 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['小Q截图-20150220143911.png', ]
+[ERROR] 2015-04-28 23:09:28 http-bio-8080-exec-7 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:09:28 http-bio-8080-exec-7 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:12:35 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['2345截图20150217220529.jpg', ]
+[ERROR] 2015-04-28 23:12:35 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:12:35 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:12:35 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['构架图.vsdx', ]
+[ERROR] 2015-04-28 23:12:35 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:12:35 http-bio-8080-exec-2 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:12:50 http-bio-8080-exec-3 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'x' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'x' with value ['44', ]
+[ERROR] 2015-04-28 23:12:50 http-bio-8080-exec-3 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'y' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'y' with value ['30', ]
+[ERROR] 2015-04-28 23:13:54 http-bio-8080-exec-5 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['小Q截图-20150216121509.png', ]
+[ERROR] 2015-04-28 23:13:54 http-bio-8080-exec-5 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:13:55 http-bio-8080-exec-5 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:13:55 http-bio-8080-exec-10 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['小Q截图-20150216214342.png', ]
+[ERROR] 2015-04-28 23:13:55 http-bio-8080-exec-10 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:13:55 http-bio-8080-exec-10 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:13:55 http-bio-8080-exec-10 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['小Q截图-20150216214732.png', ]
+[ERROR] 2015-04-28 23:13:55 http-bio-8080-exec-10 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:13:55 http-bio-8080-exec-10 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:13:55 http-bio-8080-exec-10 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['小Q截图-20150220143911.png', ]
+[ERROR] 2015-04-28 23:13:55 http-bio-8080-exec-10 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:13:55 http-bio-8080-exec-10 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:21:08 http-bio-8080-exec-9 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'x' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'x' with value ['28', ]
+[ERROR] 2015-04-28 23:21:08 http-bio-8080-exec-9 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'y' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'y' with value ['24', ]
+[ERROR] 2015-04-28 23:22:49 http-bio-8080-exec-4 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['小Q截图-20150216121509.png', ]
+[ERROR] 2015-04-28 23:22:49 http-bio-8080-exec-4 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:22:49 http-bio-8080-exec-4 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:22:49 http-bio-8080-exec-4 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['小Q截图-20150216214342.png', ]
+[ERROR] 2015-04-28 23:22:49 http-bio-8080-exec-4 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:22:49 http-bio-8080-exec-4 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:22:49 http-bio-8080-exec-4 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['小Q截图-20150216214732.png', ]
+[ERROR] 2015-04-28 23:22:49 http-bio-8080-exec-4 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:22:49 http-bio-8080-exec-4 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:22:49 http-bio-8080-exec-4 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['小Q截图-20150220143911.png', ]
+[ERROR] 2015-04-28 23:22:49 http-bio-8080-exec-4 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:22:49 http-bio-8080-exec-4 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:32:33 http-bio-8080-exec-3 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['小Q截图-20150216214342.png', ]
+[ERROR] 2015-04-28 23:32:33 http-bio-8080-exec-3 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:32:33 http-bio-8080-exec-3 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:32:33 http-bio-8080-exec-3 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['小Q截图-20150216214732.png', ]
+[ERROR] 2015-04-28 23:32:33 http-bio-8080-exec-3 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:32:33 http-bio-8080-exec-3 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[ERROR] 2015-04-28 23:32:34 http-bio-8080-exec-3 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Filename' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Filename' with value ['小Q截图-20150220143911.png', ]
+[ERROR] 2015-04-28 23:32:34 http-bio-8080-exec-3 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'Upload' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'Upload' with value ['Submit Query', ]
+[ERROR] 2015-04-28 23:32:34 http-bio-8080-exec-3 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'fileContentType' on 'class com.bysj.docmanage.view.action.UploadAction: Error setting expression 'fileContentType' with value ['application/octet-stream', ]
+[WARN ] 2015-04-28 23:42:50 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not unbind factory from JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:269)
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:304)
+	at org.apache.naming.SelectorContext.unbind(SelectorContext.java:268)
+	at javax.naming.InitialContext.unbind(Unknown Source)
+	at org.hibernate.impl.SessionFactoryObjectFactory.removeInstance(SessionFactoryObjectFactory.java:139)
+	at org.hibernate.impl.SessionFactoryImpl.close(SessionFactoryImpl.java:966)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.destroy(AbstractSessionFactoryBean.java:230)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.destroy(LocalSessionFactoryBean.java:832)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:257)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:540)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:516)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:824)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:485)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:921)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:841)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5014)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5659)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3981)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 2015-04-28 23:43:08 ContainerBackgroundProcessor[StandardEngine[Catalina]] com.mchange.v2.c3p0.management.ActiveManagementCoordinator - A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+[WARN ] 2015-04-28 23:43:11 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:43:11 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:43:11 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:43:11 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:43:11 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:43:11 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:43:15 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not bind factory to JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.bind(NamingContext.java:892)
+	at org.apache.naming.NamingContext.rebind(NamingContext.java:225)
+	at org.apache.naming.SelectorContext.rebind(SelectorContext.java:216)
+	at javax.naming.InitialContext.rebind(Unknown Source)
+	at org.hibernate.util.NamingHelper.bind(NamingHelper.java:97)
+	at org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:113)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:365)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1842)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:793)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:715)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:445)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:419)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3988)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 2015-04-28 23:45:30 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not unbind factory from JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:269)
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:304)
+	at org.apache.naming.SelectorContext.unbind(SelectorContext.java:268)
+	at javax.naming.InitialContext.unbind(Unknown Source)
+	at org.hibernate.impl.SessionFactoryObjectFactory.removeInstance(SessionFactoryObjectFactory.java:139)
+	at org.hibernate.impl.SessionFactoryImpl.close(SessionFactoryImpl.java:966)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.destroy(AbstractSessionFactoryBean.java:230)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.destroy(LocalSessionFactoryBean.java:832)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:257)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:540)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:516)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:824)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:485)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:921)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:841)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5014)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5659)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3981)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 2015-04-28 23:45:53 ContainerBackgroundProcessor[StandardEngine[Catalina]] com.mchange.v2.c3p0.management.ActiveManagementCoordinator - A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+[WARN ] 2015-04-28 23:45:57 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:45:57 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:45:57 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:45:57 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:45:57 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:45:57 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:46:02 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not bind factory to JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.bind(NamingContext.java:892)
+	at org.apache.naming.NamingContext.rebind(NamingContext.java:225)
+	at org.apache.naming.SelectorContext.rebind(SelectorContext.java:216)
+	at javax.naming.InitialContext.rebind(Unknown Source)
+	at org.hibernate.util.NamingHelper.bind(NamingHelper.java:97)
+	at org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:113)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:365)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1842)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:793)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:715)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:445)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:419)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3988)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 2015-04-28 23:47:31 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not unbind factory from JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:269)
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:304)
+	at org.apache.naming.SelectorContext.unbind(SelectorContext.java:268)
+	at javax.naming.InitialContext.unbind(Unknown Source)
+	at org.hibernate.impl.SessionFactoryObjectFactory.removeInstance(SessionFactoryObjectFactory.java:139)
+	at org.hibernate.impl.SessionFactoryImpl.close(SessionFactoryImpl.java:966)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.destroy(AbstractSessionFactoryBean.java:230)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.destroy(LocalSessionFactoryBean.java:832)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:257)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:540)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:516)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:824)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:485)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:921)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:841)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5014)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5659)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3981)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 2015-04-28 23:47:55 ContainerBackgroundProcessor[StandardEngine[Catalina]] com.mchange.v2.c3p0.management.ActiveManagementCoordinator - A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+[WARN ] 2015-04-28 23:47:58 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:47:58 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:47:58 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:47:58 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:47:58 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:47:58 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:48:04 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not bind factory to JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.bind(NamingContext.java:892)
+	at org.apache.naming.NamingContext.rebind(NamingContext.java:225)
+	at org.apache.naming.SelectorContext.rebind(SelectorContext.java:216)
+	at javax.naming.InitialContext.rebind(Unknown Source)
+	at org.hibernate.util.NamingHelper.bind(NamingHelper.java:97)
+	at org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:113)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:365)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1842)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:793)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:715)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:445)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:419)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3988)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 2015-04-28 23:48:25 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not unbind factory from JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:269)
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:304)
+	at org.apache.naming.SelectorContext.unbind(SelectorContext.java:268)
+	at javax.naming.InitialContext.unbind(Unknown Source)
+	at org.hibernate.impl.SessionFactoryObjectFactory.removeInstance(SessionFactoryObjectFactory.java:139)
+	at org.hibernate.impl.SessionFactoryImpl.close(SessionFactoryImpl.java:966)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.destroy(AbstractSessionFactoryBean.java:230)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.destroy(LocalSessionFactoryBean.java:832)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:257)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:540)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:516)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:824)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:485)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:921)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:841)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5014)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5659)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3981)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 2015-04-28 23:54:06 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:54:07 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:54:07 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:54:07 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:54:07 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:54:07 localhost-startStop-1 org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:54:12 localhost-startStop-1 org.hibernate.impl.SessionFactoryObjectFactory - Could not bind factory to JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.bind(NamingContext.java:892)
+	at org.apache.naming.NamingContext.rebind(NamingContext.java:225)
+	at org.apache.naming.SelectorContext.rebind(SelectorContext.java:216)
+	at javax.naming.InitialContext.rebind(Unknown Source)
+	at org.hibernate.util.NamingHelper.bind(NamingHelper.java:97)
+	at org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:113)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:365)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1842)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:793)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:715)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:445)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:419)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 2015-04-28 23:55:05 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not unbind factory from JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:269)
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:304)
+	at org.apache.naming.SelectorContext.unbind(SelectorContext.java:268)
+	at javax.naming.InitialContext.unbind(Unknown Source)
+	at org.hibernate.impl.SessionFactoryObjectFactory.removeInstance(SessionFactoryObjectFactory.java:139)
+	at org.hibernate.impl.SessionFactoryImpl.close(SessionFactoryImpl.java:966)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.destroy(AbstractSessionFactoryBean.java:230)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.destroy(LocalSessionFactoryBean.java:832)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:257)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:540)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:516)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:824)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:485)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:921)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:841)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5014)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5659)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3981)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 2015-04-28 23:55:35 ContainerBackgroundProcessor[StandardEngine[Catalina]] com.mchange.v2.c3p0.management.ActiveManagementCoordinator - A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+[WARN ] 2015-04-28 23:55:38 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:55:38 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:55:38 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:55:38 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:55:38 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:55:38 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:55:43 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not bind factory to JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.bind(NamingContext.java:892)
+	at org.apache.naming.NamingContext.rebind(NamingContext.java:225)
+	at org.apache.naming.SelectorContext.rebind(SelectorContext.java:216)
+	at javax.naming.InitialContext.rebind(Unknown Source)
+	at org.hibernate.util.NamingHelper.bind(NamingHelper.java:97)
+	at org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:113)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:365)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1842)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:793)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:715)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:445)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:419)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3988)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[ERROR] 2015-04-28 23:55:54 http-bio-8080-exec-4 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'x' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'x' with value ['60', ]
+[ERROR] 2015-04-28 23:55:54 http-bio-8080-exec-4 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'y' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'y' with value ['29', ]
+[WARN ] 2015-04-28 23:57:05 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not unbind factory from JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:269)
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:304)
+	at org.apache.naming.SelectorContext.unbind(SelectorContext.java:268)
+	at javax.naming.InitialContext.unbind(Unknown Source)
+	at org.hibernate.impl.SessionFactoryObjectFactory.removeInstance(SessionFactoryObjectFactory.java:139)
+	at org.hibernate.impl.SessionFactoryImpl.close(SessionFactoryImpl.java:966)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.destroy(AbstractSessionFactoryBean.java:230)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.destroy(LocalSessionFactoryBean.java:832)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:257)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:540)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:516)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:824)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:485)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:921)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:841)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5014)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5659)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3981)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 2015-04-28 23:57:26 ContainerBackgroundProcessor[StandardEngine[Catalina]] com.mchange.v2.c3p0.management.ActiveManagementCoordinator - A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+[WARN ] 2015-04-28 23:57:30 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:57:30 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:57:30 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:57:30 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:57:30 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:57:30 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:57:37 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not bind factory to JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.bind(NamingContext.java:892)
+	at org.apache.naming.NamingContext.rebind(NamingContext.java:225)
+	at org.apache.naming.SelectorContext.rebind(SelectorContext.java:216)
+	at javax.naming.InitialContext.rebind(Unknown Source)
+	at org.hibernate.util.NamingHelper.bind(NamingHelper.java:97)
+	at org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:113)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:365)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1842)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:793)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:715)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:445)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:419)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3988)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 2015-04-28 23:58:00 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not unbind factory from JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:269)
+	at org.apache.naming.NamingContext.unbind(NamingContext.java:304)
+	at org.apache.naming.SelectorContext.unbind(SelectorContext.java:268)
+	at javax.naming.InitialContext.unbind(Unknown Source)
+	at org.hibernate.impl.SessionFactoryObjectFactory.removeInstance(SessionFactoryObjectFactory.java:139)
+	at org.hibernate.impl.SessionFactoryImpl.close(SessionFactoryImpl.java:966)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.destroy(AbstractSessionFactoryBean.java:230)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.destroy(LocalSessionFactoryBean.java:832)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:257)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:540)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:516)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:824)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:485)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:921)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:841)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5014)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5659)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3981)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 2015-04-28 23:58:29 ContainerBackgroundProcessor[StandardEngine[Catalina]] com.mchange.v2.c3p0.management.ActiveManagementCoordinator - A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+[WARN ] 2015-04-28 23:58:34 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:58:34 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:58:34 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:58:34 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:58:34 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:58:34 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.util.DTDEntityResolver - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[WARN ] 2015-04-28 23:58:39 ContainerBackgroundProcessor[StandardEngine[Catalina]] org.hibernate.impl.SessionFactoryObjectFactory - Could not bind factory to JNDI
+javax.naming.NamingException: Name is not valid
+	at org.apache.naming.NamingContext.bind(NamingContext.java:892)
+	at org.apache.naming.NamingContext.rebind(NamingContext.java:225)
+	at org.apache.naming.SelectorContext.rebind(SelectorContext.java:216)
+	at javax.naming.InitialContext.rebind(Unknown Source)
+	at org.hibernate.util.NamingHelper.bind(NamingHelper.java:97)
+	at org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:113)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:365)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1842)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:793)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:715)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:445)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:419)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3988)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+[ERROR] 2015-04-28 23:58:52 http-bio-8080-exec-8 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'x' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'x' with value ['19', ]
+[ERROR] 2015-04-28 23:58:52 http-bio-8080-exec-10 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'x' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'x' with value ['51', ]
+[ERROR] 2015-04-28 23:58:52 http-bio-8080-exec-10 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'y' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'y' with value ['10', ]
+[ERROR] 2015-04-28 23:58:52 http-bio-8080-exec-8 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'y' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'y' with value ['19', ]
+[ERROR] 2015-04-28 23:59:58 http-bio-8080-exec-16 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'x' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'x' with value ['37', ]
+[ERROR] 2015-04-28 23:59:58 http-bio-8080-exec-16 com.opensymphony.xwork2.interceptor.ParametersInterceptor - Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'y' on 'class com.bysj.docmanage.view.action.UserAction: Error setting expression 'y' with value ['27', ]
